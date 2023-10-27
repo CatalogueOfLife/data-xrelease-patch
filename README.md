@@ -1,5 +1,5 @@
 # XCOL Patch Data
-A small TextTree dataset that acts as a "patch" dataset for the Catalogue of Life Extended Checklist.
+A small [TextTree](https://github.com/gbif/text-tree) dataset that acts as a "patch" dataset for the Catalogue of Life Extended Checklist.
 It is hosted in Checklistbank at: https://www.checklistbank.org/dataset/274774
 
 ## Files
