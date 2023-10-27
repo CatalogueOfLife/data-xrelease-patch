@@ -1,13 +1,14 @@
-# data-template-textree
-A template for [ChecklistBank](https://www.checklistbank.org) dataset repositories using the simple [TextTree format](https://github.com/gbif/text-tree).
+# XCOL Patch Data
+A small TextTree dataset that acts as a "patch" dataset for the Catalogue of Life Extended Checklist.
+It is hosted in Checklistbank at: https://www.checklistbank.org/dataset/274774
 
 ## Files
 The main taxonomy tree lives in [taxonomy.txtree](taxonomy.txtree). 
 Information about the dataset as a whole and how to cite it is kept in metadata.yaml,
-while you can curate a list of structured references either in [BibTex](reference.bib) or [TSV format](reference.tsv). 
+while structured references are managed in [BibTex](reference.bib). 
 References from this list can then be [cited in the taxonomy file](https://github.com/CatalogueOfLife/coldp/blob/master/docs/publishing-guide-txtree.md).
-Please remove unused files in your copy.
 
+### BibTex References
 BibTex content can be retrieved from CrossRef for most DOIs when known.
 For example by using curl on the terminal like this:
 > curl --location --silent --header "Accept: application/x-bibtex" https://doi.org/10.1080/11035890601282097 
@@ -28,7 +29,7 @@ For example by using curl on the terminal like this:
 There are also online editors, e.g. https://truben.no/latex/bibtex/#
 
 
-## Github webhooks
+## Contribute using Github webhooks
 Once the dataset is created in ChecklistBank (CLB), Github webhooks can be used to automatically update the copy in ChecklistBank 
 whenever a commit to the repository happens. Configure:
 
@@ -38,6 +39,16 @@ whenever a commit to the repository happens. Configure:
 
 
 ## Git precommit hook
-You can configure a git ore commit hook to automatically update the issued date of your metadata.yaml.
-For this to work simply place the [pre-commit.hook](pre-commit.hook) file into your `.git/hooks` folder.
+If you plan to contribute and commit changes 
+please configure a git pre commit hook to automatically update the issued date of your metadata.yaml.
+For this create a file called `pre-commit.hook` and place it into your `.git/hooks` folder.
 
+```bash
+#!/bin/sh
+#
+d=`date +%Y-%m-%d`
+sed -i '' "s/^issued: 20..-..-..$/issued: $d/g" metadata.yaml
+git add metadata.yaml
+echo "Updated issued in metadata.yaml"
+exit 0
+```
