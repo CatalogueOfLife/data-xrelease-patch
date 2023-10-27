@@ -1,6 +1,6 @@
 # XCOL Patch Data
 A small [TextTree](https://github.com/gbif/text-tree) dataset that acts as a "patch" dataset for the Catalogue of Life Extended Checklist.
-It is hosted in Checklistbank at: https://www.checklistbank.org/dataset/274774
+It is hosted in Checklistbank at: https://www.dev.checklistbank.org/dataset/271399
 
 ## Files
 The main taxonomy tree lives in [taxonomy.txtree](taxonomy.txtree). 
