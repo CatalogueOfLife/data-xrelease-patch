@@ -36,18 +36,18 @@ creator:
     country: DE
   - given: Camila
     family: Plata
-    email: 
+    email: camila.plata@catalogueoflife.org
     orcid: 
     organisation: 
-    city: 
-    country: 
+    city: Bogota
+    country: Columbia
   - given: Diana
     family: Hernández
-    email: 
+    email: diana.hernandez@catalogueoflife.org
     orcid: 
     organisation: 
-    city: 
-    country: 
+    city: Mexico City
+    country: Mexico
 
 
 geographicScope: global
