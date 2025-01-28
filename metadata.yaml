@@ -1,20 +1,20 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/CatalogueOfLife/coldp/master/metadata.json
-title: Patch Data for the COL Extended Checklist
+title: Patch Data for the COL eXtended Release
 
 # Short, hopefully unique name for the dataset
-alias: xcol-patch
+alias: XR Patch
 
 # Multi parapgraph description / abstract of the dataset
 description: | 
-    A small dataset that acts as a "patch" dataset for the Catalogue of Life Extended Checklist.
+    A small dataset that acts as a "patch" dataset for the Catalogue of Life eXtended Release.
     It is the merge sector with the highest priority and can be used to settle problems with merge sources.
 
 keyword: 
   - COL
   - patch
-  - XCOL
+  - XRelease
 
-issued: 2023-10-26
+issued: 2025-01-28
 
 # Single point of contact for questions
 contact: 
@@ -57,4 +57,4 @@ confidence: 5
 completeness: 0
 
 license: CC0-1.0
-url: https://github.com/CatalogueOfLife/data-xcol-patch
+url: https://github.com/CatalogueOfLife/data-xrelease-patch
