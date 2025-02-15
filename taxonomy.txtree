@@ -8,3 +8,7 @@ Animalia [kingdom]
         Sylviidae [family]
           Sylvia subcaerulea Vieillot, 1817 [species]
             = Parisoma subcaerulea [species] # See https://github.com/CatalogueOfLife/data/issues/800
+Plantae [kingdom]
+  Tracheophyta [phylum]
+    = Pteridophyta [phylum]
+    = Magnoliophyta [phylum]
