@@ -12,3 +12,7 @@ Plantae [kingdom]
     = Pteridophyta [phylum]
     = Magnoliophyta [phylum]
     = Sphenophyta [phylum]
+    Polypodiopsida [class]
+     Equisetales [order]
+      = Sphenophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
+      = Sphenopsida [class] 
