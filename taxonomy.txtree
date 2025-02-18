@@ -11,7 +11,6 @@ Plantae [kingdom]
   Tracheophyta [phylum]
     = Pteridophyta [phylum] #see https://github.com/CatalogueOfLife/data/issues/826
     = Magnoliophyta [phylum]
-    = Sphenophyta [phylum]
     Polypodiopsida [class]
      Equisetales [order]
       = Sphenophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
