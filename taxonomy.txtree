@@ -9,7 +9,7 @@ Animalia [kingdom]
           = Parisoma subcaerulea [species] # See https://github.com/CatalogueOfLife/data/issues/800
 Plantae [kingdom]
   Tracheophyta [phylum]
-    = Pteridophyta [phylum]
+    = Pteridophyta [phylum] #see https://github.com/CatalogueOfLife/data/issues/826
     = Magnoliophyta [phylum]
     = Sphenophyta [phylum]
     Polypodiopsida [class]
