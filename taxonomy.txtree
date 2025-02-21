@@ -15,3 +15,5 @@ Plantae [kingdom]
      Equisetales [order]
       = Sphenophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
       = Sphenopsida [class] 
+    Pinopsida [class]
+      = Pinophyta [phyllum] # # See https://github.com/CatalogueOfLife/xcol/issues/103; https://www.worldfloraonline.org/taxon/wfo-4100002552
