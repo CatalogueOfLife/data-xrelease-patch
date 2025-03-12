@@ -3,18 +3,18 @@ Animalia [kingdom]
     Aves [class]
       Regulidae [family]
         Regulus calendula Linnaeus, 1766 [species] {PUB=SysNat}  # See https://github.com/CatalogueOfLife/data/issues/574
-          *Corthylio calendula (Linnaeus, 1766) [species]
+          =Corthylio calendula (Linnaeus, 1766) [species]
       Sylviidae [family]
         Sylvia subcaerulea Vieillot, 1817 [species]
-          = Parisoma subcaerulea [species] # See https://github.com/CatalogueOfLife/data/issues/800
+          =Parisoma subcaerulea [species] # See https://github.com/CatalogueOfLife/data/issues/800
 Plantae [kingdom]
   Tracheophyta [phylum]
-    = Pteridophyta [phylum] #see https://github.com/CatalogueOfLife/data/issues/826
-    = Magnoliophyta [phylum]
-    = Gymnospermophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
+    =Pteridophyta [phylum] # See https://github.com/CatalogueOfLife/data/issues/826
+    =Magnoliophyta [phylum]
+    =Gymnospermophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
     Polypodiopsida [class]
-     Equisetales [order]
-      = Sphenophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
-      = Sphenopsida [class] 
+      Equisetales [order]
+        =Sphenophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103
+        =Sphenopsida [class] 
     Pinopsida [class]
-      = Pinophyta [phyllum] # # See https://github.com/CatalogueOfLife/xcol/issues/103; https://www.worldfloraonline.org/taxon/wfo-4100002552
+      =Pinophyta [phylum] # See https://github.com/CatalogueOfLife/xcol/issues/103; https://www.worldfloraonline.org/taxon/wfo-4100002552
